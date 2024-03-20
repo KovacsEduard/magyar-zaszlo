@@ -1,0 +1,43 @@
+.red{
+    background-color: red;
+    top: 0;
+}
+
+.white{
+    background-color: white;
+    top: 33.33%;
+}
+
+.green{
+    background-color: green;
+    top: 66.66%;
+}
+
+#eltuno{
+    width: 70%;
+    height: calc(70% * 2 / 3);
+    position: relative;
+    border: 1px grey solid;
+    box-shadow: 3px 6px 10px;
+    
+}
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.vonal{
+    position: absolute;
+    height: 33.33%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #eltuno{
+        display: none;
+    }
+}
